@@ -36,10 +36,11 @@ background:url("images/waterfall.jpeg") center/cover fixed;position:relative
 
 @keyframes fadeUp{from{opacity:0;transform:translateY(50px)}to{opacity:1}}
 
-/* 🧑‍🎨 ABOUT */
+/* 🧑‍🎨 SECTIONS */
 section{padding:140px 8%}
 h2{letter-spacing:8px;margin-bottom:60px;text-align:center}
 
+/* ABOUT */
 .about-container{
 max-width:1100px;margin:auto;
 display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:70px
@@ -52,7 +53,7 @@ box-shadow:0 0 80px rgba(0,0,0,0.9)
 
 .about-text{max-width:520px;line-height:1.9;opacity:0.9}
 
-/* 🖼️ DOCUMENTED GRID */
+/* 🖼️ GRID */
 .doc-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
@@ -71,7 +72,7 @@ transition:0.5s
 .doc-item h3{margin-bottom:10px}
 .doc-item p{opacity:0.8;line-height:1.7;font-size:0.95rem}
 
-/* ✨ PARALLAX BREAK */
+/* ✨ PARALLAX */
 .parallax{
 height:60vh;
 background:url("images/clouds.jpeg") center/cover fixed;
@@ -97,8 +98,7 @@ width:20px;height:20px;border:2px solid #ffcc70;border-radius:50%;
 position:fixed;pointer-events:none;z-index:3000
 }
 
-/* 📱 MOBILE FIX — ONLY ADDITION */
-
+/* 📱 MOBILE */
 @media (max-width:900px){
 
 .hero h1{font-size:3rem;letter-spacing:6px}
@@ -109,7 +109,6 @@ nav a{font-size:11px}
 
 section{padding:90px 6%}
 
-/* STACK ABOUT */
 .about-container{
 flex-direction:column;
 text-align:center;
@@ -119,12 +118,10 @@ text-align:center;
 width:200px;height:200px
 }
 
-/* STACK GRID */
 .doc-grid{
 grid-template-columns:1fr
 }
 
-/* SMALL PARALLAX TEXT */
 .parallax h2{
 font-size:2rem;
 letter-spacing:6px;
@@ -132,7 +129,6 @@ padding:15px 25px
 }
 
 }
-
 </style>
 </head>
 
@@ -160,11 +156,29 @@ padding:15px 25px
 <section id="about">
 <h2>ABOUT ME</h2>
 <div class="about-container">
+
 <img src="images/myphoto.jpg" alt="Sai Sri Charan">
+
 <div class="about-text">
+
 <p>
-I’m <b>Sai Sri Charan Yerramsetty</b>, a street and event photographer based in Hyderabad.
+I’m <b>Sai Sri Charan Yerramsetty</b>, a street and event photographer based in Hyderabad, India.  
+My work focuses on cinematic urban storytelling — capturing rain-soaked streets, cultural rituals, late-night highways, and quiet moments hidden inside the chaos of city life.
 </p>
+
+<br>
+
+<p>
+Through <b>Capturin Art</b>, I aim to document the rhythm of everyday life — the movement, emotion, atmosphere, and human connection that define urban experiences.  
+I believe photography is not just about images, but about preserving stories, feelings, and time itself.
+</p>
+
+<br>
+
+<p>
+Specializing in street, urban, and event photography, my vision is to create frames that feel alive — immersive, atmospheric, and deeply personal.
+</p>
+
 </div>
 </div>
 </section>
@@ -197,7 +211,15 @@ I’m <b>Sai Sri Charan Yerramsetty</b>, a street and event photographer based i
 <h2>CONTACT</h2>
 <div class="contact">
 <p>Hyderabad, India</p>
-<a href="https://instagram.com/capturin_art" target="_blank">Instagram — @capturin_art</a>
+
+<a href="https://instagram.com/capturin_art" target="_blank">
+Instagram — @capturin_art
+</a>
+
+<a href="mailto:saicharan2228@gmail.com">
+Email — saicharan2228@gmail.com
+</a>
+
 </div>
 </section>
 
